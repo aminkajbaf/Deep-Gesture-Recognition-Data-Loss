@@ -1,5 +1,3 @@
-سبک، لحن، ایموجی‌ها و ساختار دقیقاً مثل نمونه قبلی شماست.
-
 Deep Gesture Recognition under Data Loss
 
 Source code for “Deep Gesture Recognition under Data Loss”
