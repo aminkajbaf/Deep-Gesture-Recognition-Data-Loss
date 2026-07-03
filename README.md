@@ -13,7 +13,7 @@ The source code will be released after acceptance to comply with publisher polic
 The dataset used in this study is publicly available on IEEE DataPort:
 
 Dataset for Deep Gesture Recognition under Data Loss
-📘 DOI: 10.21227/zkfq-ek87
+📘 DOI: https://dx.doi.org/10.21227/zkfq-ek87
 
 🔗 Source Code Access
 
