@@ -1,0 +1,36 @@
+# Deep Gesture Recognition under Data Loss (DGRDL)
+# Paper: https://github.com/aminkajbaf/Deep-Gesture-Recognition-Data-Loss
+
+data:
+  # Root directories of .npy DRAI sequences (20 x H x W)
+  root_dirs:
+    - /path/to/gesture_npy
+  negative_root: null   # optional non-gesture / human-action folder
+  num_classes: 13       # 12 gestures + Motion/HA
+  batch_size: 8
+  val_split: 0.1
+  num_workers: 4
+  image_size: [32, 32]
+  # Data-loss ratios used for random zero-out augmentation
+  dl_ratios: [0.0, 0.1, 0.2, 0.3, 0.4]
+
+model:
+  in_channels: 20
+  depth_per_stage: 2
+  bottleneck_depth: 2
+  latent_dim: 2048      # 512 * 2 * 2
+  scale_shift_hidden: 512
+
+train:
+  seed: 42
+  learning_rate: 1.0e-4
+  # Phase 1: encoder-decoder reconstruction (MSE)
+  phase1_epochs: 100
+  # Phase 2: freeze encoder; train scale-shift + classifier (CE)
+  phase2_epochs: 100
+  device: cuda
+
+paths:
+  checkpoint_dir: checkpoints
+  phase1_ckpt: checkpoints/phase1_encoder_decoder.pth
+  phase2_ckpt: checkpoints/best_model.pth
