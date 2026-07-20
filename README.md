@@ -1,38 +1,61 @@
-Deep Gesture Recognition under Data Loss
+# Deep Gesture Recognition under Data Loss
 
-Source code for “Deep Gesture Recognition under Data Loss”
-FMCW mmWave Radar–Based Gesture & Action Recognition
+Official source code for **“Deep Gesture Recognition under Data Loss”**
 
-📄 Publication Status
+FMCW mmWave Radar-Based Gesture and Action Recognition under Data Loss
 
-The corresponding paper is currently under review.
-The source code will be released after acceptance to comply with publisher policies and ensure research integrity.
+## 📄 Publication
 
-📦 Dataset
+The corresponding paper has been published as an **Early Access** article in *IEEE Sensors Journal*.
+
+**Paper:** [IEEE Xplore](https://ieeexplore.ieee.org/document/11595268)
+**DOI:** [10.1109/JSEN.2026.3708066](https://doi.org/10.1109/JSEN.2026.3708066)
+
+## 💻 Source Code
+
+This repository contains the official source code for the proposed Deep Gesture Recognition under Data Loss framework.
+
+The code includes the model architecture, data-loading pipeline, training procedure, and evaluation scripts used in this study.
+
+## 📦 Dataset
 
 The dataset used in this study is publicly available on IEEE DataPort:
 
-Dataset for Deep Gesture Recognition under Data Loss
-📘 DOI: https://dx.doi.org/10.21227/zkfq-ek87
+**Dataset for Deep Gesture Recognition under Data Loss**
 
-🔗 Source Code Access
+**DOI:** [10.21227/zkfq-ek87](https://doi.org/10.21227/zkfq-ek87)
 
-The source code is stored in a private GitHub repository due to ongoing research activities.
-Access can be granted upon reasonable request.
+## 📬 Contact
 
-📧 Email: A.kajbaf@ec.iut.ac.ir
+For questions regarding the paper, source code, or dataset, please contact:
 
-📬 Contact
+**Amin Kajbaf**
+Email: [a.kajbaf@ec.iut.ac.ir](mailto:a.kajbaf@ec.iut.ac.ir)
 
-For any questions regarding the dataset or source code, please contact:
-A. Kajbaf
-Email: a.kajbaf@ec.iut.ac.ir
+**Affiliation:** University of Tehran and Isfahan University of Technology
 
-Affiliation: University of Tehran & Isfahan University of Technology
+## 📚 Citation
 
-📚 Citation
+If you use this source code or method in your research, please cite:
 
-If you use this dataset or related materials, please cite:
 
-A. Kajbaf, “Dataset for Deep Gesture Recognition under Data Loss,” IEEE DataPort, 2025.
-DOI: 10.21227/zkfq-ek87
+@article{kajbaf2026deep,
+  author  = {Kajbaf, Amin and Yazdian, Ehsan and Akhaee, Mohammad Ali and Toosi, Ramin and Gazor, Saeed},
+  title   = {Deep Gesture Recognition under Data Loss},
+  journal = {IEEE Sensors Journal},
+  year    = {2026},
+  doi     = {10.1109/JSEN.2026.3708066},
+  note    = {Early Access}
+}
+```
+
+If you use the dataset, please also cite:
+
+
+@dataset{kajbaf2025dataset,
+  author    = {Kajbaf, Amin},
+  title     = {Dataset for Deep Gesture Recognition under Data Loss},
+  publisher = {IEEE DataPort},
+  year      = {2025},
+  doi       = {10.21227/zkfq-ek87}
+}
